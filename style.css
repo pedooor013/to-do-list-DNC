@@ -118,6 +118,11 @@ main{
         opacity: .8;
     }
 }
+
+.add-task-btn:disabled{
+    background-color: #d9d9d9;
+    cursor: not-allowed;
+}
 .remove-done-tasks-btn{
     box-sizing: border-box;
     height: 3.6rem;
