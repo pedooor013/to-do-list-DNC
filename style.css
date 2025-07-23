@@ -132,7 +132,7 @@ main{
     border-radius: .4rem;
     cursor: pointer;
     padding: 0 1.6rem;
-
+    
     &:hover{
         transition: .5s;
         opacity: .8;
@@ -142,6 +142,8 @@ main{
 footer{
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: end;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    align-items: center;
 }
